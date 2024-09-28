@@ -1,0 +1,17 @@
+[
+	{
+		"id": "c67ab8a7",
+		"title": "Graffiti Home 45",
+		"cover": "data/images/GraffitiHome-picture1.png",
+		"pictures": [
+			"data/images/GraffitiHome-picture1.png"
+		],
+		"description": "Un site réalisé avec Wordpress pour un artiste pictural.",
+		"equipments": [
+			"https://graffitihome45.fr/"
+		],
+		"tags": [
+			"Wordpress"
+		]
+	}
+]

@@ -1,0 +1,50 @@
+@import '../../styles/utils/variables';
+@import '../../styles/utils/mixins';
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 7%;
+    @include tablet{
+        margin: 10px 15px 20px 15px;
+    }
+    @include mobile{
+        margin: 10px 20px 20px 20px;
+    }
+
+    &__logo-container {
+        font-size: 30px;
+        color: $primary-color;
+        @include mobile {
+            height: 18px;
+        }
+    }
+
+
+    &__nav-list {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        list-style: none;
+        @include mobile {
+            gap: 10px;
+            padding: 0;
+        }
+    }
+
+
+    &__nav-link {
+        color: $primary-color;
+        font-size: 24px;
+        flex-wrap: nowrap;
+        @include mobile {
+            font-size: 12px;
+        }
+
+        &--active {
+            text-decoration: underline;
+        }
+    }
+}

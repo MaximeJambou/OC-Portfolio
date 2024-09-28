@@ -1,0 +1,61 @@
+@import '../../styles/utils/variables';
+@import '../../styles/utils/mixins';
+
+.collapse {
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+
+    .collapse-title {
+        position: relative;
+        z-index: 2;
+        padding: 10px 15px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $primary-color;
+        cursor: pointer;
+        
+        
+        h2 {
+            margin: 0;
+            font-size: 18px;
+            color: white;
+            font-weight: 500;
+            @include mobile{
+                font-size: 13px;
+            }
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .rotate {
+            transform: rotate(180deg);
+        }
+    }
+
+    .collapse-content {
+        position: relative;
+        z-index: 1;
+        padding: 0 15px;
+        background-color: $background-color;
+        color: $primary-color;
+        border-bottom-left-radius: 5px; 
+        border-bottom-right-radius: 5px;
+        max-height: 0;
+        transition: max-height 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    }
+
+    &.open .collapse-content {
+        margin-top: -5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        max-height: 500px;
+    }
+}
