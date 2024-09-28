@@ -2,16 +2,54 @@
 	{
 		"id": "c67ab8a7",
 		"title": "Graffiti Home 45",
-		"cover": "data/images/GraffitiHome-picture1.png",
+		"cover": "data/images/GraffitiHome-cover.jpg",
 		"pictures": [
-			"data/images/GraffitiHome-picture1.png"
+			"../data/images/GraffitiHome-picture1.png",
+			"../data/images/GraffitiHome-picture2.png"
 		],
-		"description": "Un site réalisé avec Wordpress pour un artiste pictural.",
-		"equipments": [
+		"description": "Graffiti Home 45 est un projet développé pour un artiste peintre mural en utilisant WordPress. L'objectif principal était de créer un site web professionnel qui présente les œuvres de l'artiste et met en valeur son style unique. Grâce à WordPress, j'ai pu concevoir une interface esthétique et fonctionnelle, adaptée aux besoins de l'artiste, permettant de gérer facilement les galeries d'œuvres et d'intégrer des fonctionnalités personnalisées. Ce projet m'a permis de renforcer mes compétences en développement de sites créatifs et en gestion de contenu avec WordPress.",
+		"websites": [
 			"https://graffitihome45.fr/"
 		],
 		"tags": [
 			"Wordpress"
+		]
+	},
+	{
+		"id": "b9123946",
+		"title": "Argent Bank",
+		"cover": "data/images/ArgentBank-cover.png",
+		"pictures": [
+			"../data/images/ArgentBank-picture1.png",
+			"../data/images/ArgentBank-picture2.png",
+			"../data/images/ArgentBank-picture3.png"
+		],
+		"description": "Argent Bank est un projet d'application bancaire développé pour mettre en œuvre un système d'authentification utilisateur sécurisé. L'objectif était de permettre aux utilisateurs de se connecter, d'accéder à leurs informations de compte, et de modifier leur pseudo. Pour cela, j'ai utilisé React pour la création de l'interface utilisateur et Redux pour gérer l'état global de l'application, notamment pour l'authentification et la gestion des données de l'utilisateur. Ce projet m'a permis de maîtriser les concepts de gestion de sessions et d'interaction utilisateur au sein d'une application moderne.",
+		"websites": [
+			"https://github.com/MaximeJambou/ArgentBank-Front"
+		],
+		"tags": [
+			"React JS",
+			"Redux"
+		]
+	},
+	{
+		"id": "46d188c5",
+		"title": "77events",
+		"cover": "data/images/77events-cover.png",
+		"pictures": [
+			"../data/images/77events-picture1.png",
+			"../data/images/77events-picture2.png"
+			
+		],
+		"description": "77events est un projet de débogage réalisé sous React JS, dans lequel j'ai été chargé de corriger des erreurs existantes et de garantir la qualité de l'application à l'aide de tests. J'ai mis en place des tests unitaires pour vérifier la fonctionnalité de chaque composant individuellement et des tests fonctionnels pour simuler le comportement des utilisateurs et m'assurer du bon fonctionnement global. Ce projet m'a permis d'améliorer mes compétences en débogage, ainsi qu'en tests automatisés avec des outils comme Jest et React Testing Library.",
+		"websites": [
+			"https://github.com/MaximeJambou/724events"
+		],
+		"tags": [
+			"React JS",
+			"Jest",
+			"React DevTools"
 		]
 	}
 ]

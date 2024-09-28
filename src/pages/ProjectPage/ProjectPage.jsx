@@ -61,8 +61,10 @@ function ProjectPage() {
                 </div>
                 <div className="project-collapses__container">
                     <Collapse title="Découvrir" >
-                        {projectData.equipments.map((equipment, index) => (
-                            <p key={index}>{equipment}</p>
+                        {projectData.websites.map((website, index) => (
+                            <a key={index} href={website} target="_blank" rel="noopener noreferrer">
+                            {website}
+                            </a>
                         ))}
                     </Collapse>
                 </div>     
