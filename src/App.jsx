@@ -9,6 +9,7 @@ import ProjectPage from './pages/ProjectPage/ProjectPage';
 import NotFound from './pages/NotFound/NotFound';
 
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       </main>
+      <Footer/>
     </Router>
   );
 }

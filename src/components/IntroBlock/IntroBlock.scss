@@ -19,6 +19,10 @@
         border-radius: 50%; 
         object-fit: cover; 
         clip-path: circle(40% at 50% 50%);
+        @include mobile{
+            width: 200px;
+            height: 200px;
+        }
 
     }
 
@@ -26,5 +30,9 @@
         flex: 1;
         font-size: 18px;
         line-height: 1.6;
+        color: $primary-color;
+        @include mobile{
+            font-size: 14px;
+        }
     }
 }

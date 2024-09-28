@@ -14,8 +14,9 @@
     }
     @include mobile{
         grid-template-columns: 1fr;
-        padding: 0;
+        padding: 20px;
         background-color: none;
+        justify-items: center;
     }
 }
 

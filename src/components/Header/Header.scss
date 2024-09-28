@@ -16,9 +16,10 @@
 
     &__logo-container {
         font-size: 30px;
+        font-family: "Permanent Marker";
         color: $primary-color;
         @include mobile {
-            height: 18px;
+            font-size: 18px;
         }
     }
 
